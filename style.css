@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    font-size: 20px;
+}
+.nav ul{
+    background: #f1c8ec;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover{
+    background: #6f71f8;
+    
+}
+.nav ul li:hover a{
+    color: snow;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium';
+}
